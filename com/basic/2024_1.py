@@ -65,3 +65,14 @@ print(dict['name'])
 print(dict.keys())
 print(dict.values())
 
+
+a = 21
+b = 10
+c = 0
+c = a + b
+print("c 的值为：", c)
+
+a = 10
+b = 5
+c = a // b
+print("c 的值为：", c)
