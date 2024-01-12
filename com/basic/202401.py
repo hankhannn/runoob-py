@@ -39,3 +39,29 @@ this is a multiple lines' explanation
 
 a, b, c = 1, 2, 'John'
 print(a, '\t', b, '\t', c)
+
+hello = "hello world"
+print(hello)
+print(hello[0])
+print(hello[-5])
+print(hello[2:5])
+print(hello[2:])
+print(hello * 2)
+print(hello + "TEST")
+
+tuple = ('1111', 23, 2.23, 'just', 'ruooob')
+tuple2 = ('1111', 23, 'just')
+print(tuple)
+print(tuple[0])
+print(tuple[1:3])
+print(tuple[2:])
+print(tuple * 2)
+print(tuple + tuple2)
+
+dict = {'name': 'HANK', 'nationality': 'China'}
+dict['gender'] = 'Male'
+print(dict)
+print(dict['name'])
+print(dict.keys())
+print(dict.values())
+
