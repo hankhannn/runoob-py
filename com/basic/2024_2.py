@@ -14,8 +14,10 @@ class Employee:
 
 
 employee1 = Employee('Hank', 1000)
-employee1.displayEmployee();
+employee1.displayEmployee()
 employee1.displayCount()
+
 employee2 = Employee('Eric', 2000)
-employee2.displayEmployee();
+employee2.displayEmployee()
 employee2.displayCount()
+
