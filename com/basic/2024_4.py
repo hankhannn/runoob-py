@@ -14,4 +14,4 @@ counter = JustCounter()
 counter.count()
 counter.count()
 print(counter.publicCount)
-# print(counter.__secretCount)  # 报错，实例不能访问私有变量
+# print(counter.__secretCount)  # error, private variables could be accessed outside the class
