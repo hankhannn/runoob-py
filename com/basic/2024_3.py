@@ -4,7 +4,7 @@ class King:
     def __init__(self):
         print("this is the parent's init method")
 
-    def setBarkMsg(self, msg):
+    def setPower(self, msg):
         self.barkMsg = msg
 
     def bark(self):
@@ -12,7 +12,7 @@ class King:
 
 
 p = King()
-p.setBarkMsg("I'm the king")
+p.setPower("I can control everything")
 p.bark()
 
 
@@ -20,10 +20,10 @@ class Queen(King):
     def __init__(self):
         print("this is the child's init method")
 
-    def setBarkMsg(self, msg):
-        super().setBarkMsg(msg + ", I'm the queen")
+    def setPower(self, msg):
+        super().setPower(msg + " include the king")
 
 
 c = Queen()
-c.setBarkMsg("I'm the queen")
+c.setPower("I can control everything")
 c.bark()
